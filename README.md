@@ -38,7 +38,7 @@ Servers built by Daeda are marked with a 🔶
 
 | Server | Description | Links |
 |--------|-------------|-------|
-| 🔶 **Daeda HubSpot MCP** | Query and interact with your HubSpot CRM - contacts, companies, deals, and more. Free tier for data export, paid for real-time sync and editing coming soon. | [npm free package](https://www.npmjs.com/package/daeda-mcp) |
+| 🔶 **Daeda HubSpot MCP** | Query and interact with your HubSpot CRM — contacts, companies, deals, associations, and more. Free npm package gives any AI assistant a local, encrypted, read-only sync of your portal. The full [Daeda AI](https://daeda.tech/projects/daeda-ai/?utm_source=github) app on the HubSpot Marketplace adds Write Plans, multi-portal support, and creates HubSpot Workflow Actions. | [npm (free)](https://www.npmjs.com/package/daeda-mcp) · [Daeda AI (Marketplace)](https://daeda.tech/projects/daeda-ai/?utm_source=github) |
 
 
 ## Automation
