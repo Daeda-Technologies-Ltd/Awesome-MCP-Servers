@@ -1,10 +1,9 @@
-# Awesome-MCP-Servers
-> A curated list of MCP servers that we've actually tested and can vouch for
+# Awesome MCP Servers for RevOps
+> A curated list of MCP servers for RevOps, HubSpot admins, and CRM teams — tested and vouched for by Daeda Technologies.
 
+Most "awesome MCP" lists are sprawling dumps of every server anyone has ever pushed to GitHub. This one is different: a short, opinionated list of **MCP servers for RevOps** — the tools we actually use day-to-day to connect AI assistants to HubSpot, CRM data, revenue systems, and the rest of the ops stack. Every entry is **well-documented, actively maintained, and useful in real workflows**, so you don't have to wade through hundreds of entries to find the good ones.
 
-We maintain a short, opinionated list of servers that are **well-documented, actively maintained, and super useful**, so you don't have to wade through hundreds of entries to find the good ones.
-
-Curated by [Daeda Technologies](https://daeda.tech?utm_source=github), makers of [Daeda MCP](https://www.npmjs.com/package/daeda-mcp) and other [HubSpot marketplace apps](https://daeda.tech/app-categories/hubspot?utm_source=github)
+Curated by [Daeda Technologies](https://daeda.tech?utm_source=github), makers of [Daeda MCP](https://www.npmjs.com/package/daeda-mcp) — the free HubSpot MCP — and other [HubSpot marketplace apps](https://daeda.tech/app-categories/hubspot?utm_source=github). For the full write-up of why each of these made the cut, read [Awesome MCP Servers for RevOps](https://daeda.tech/blogs/awesome-mcp-servers-for-revops?utm_source=github) on daeda.tech.
 
 ---
 
@@ -13,11 +12,10 @@ Curated by [Daeda Technologies](https://daeda.tech?utm_source=github), makers of
 - [CRM & Sales](#crm--sales)
 - [Automation](#automation)
 - [Communication](#communication)
-- [Web Development](#web-development)
 - [Project Management](#project-management)
 - [Analytics](#analytics)
 - [Knowledge & Documentation](#knowledge--documentation)
-- [Search](#search)
+- [Revenue & Payments](#revenue--payments)
 - [Contributing](#contributing)
 
 ---
@@ -53,19 +51,14 @@ Servers built by Daeda are marked with a 🔶
 
 | Server | Description | Links |
 |--------|-------------|-------|
-| **Gmail** | Manage Gmail through natural language — read, send, search, and organize emails. Auto authentication support for Claude Desktop. | [GitHub](https://github.com/GongRzhe/Gmail-MCP-Server) |
-
-## Web Development
-
-| Server | Description | Links |
-|--------|-------------|-------|
-| **Webflow** | Official MCP server for the Webflow Data and Designer APIs. Manage CMS content, create elements, update styles, and work with your sites from AI tools. | [Docs](https://developers.webflow.com/mcp/v1.0.0/reference/overview) |
+| **Slack** | Official MCP server. Search messages, access channels, and send notifications from AI workflows. Useful for ops automation that pings the right team when a deal closes or a ticket escalates. | [Docs](https://docs.slack.dev/ai/slack-mcp-server/) |
 
 ## Project Management
 
 | Server | Description | Links |
 |--------|-------------|-------|
-| **ClickUp** | Official MCP server allowing AI agents to interact with ClickUp Workspace data - like tasks, lists, folders, and docs using natural language. | [Clickup Docs](https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server) |
+| **ClickUp** | Official MCP server allowing AI agents to interact with ClickUp Workspace data - like tasks, lists, folders, and docs using natural language. | [ClickUp Docs](https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server) |
+| **Linear** | Official Linear MCP server. Create, update, and search issues, projects, and initiatives from AI chat. Popular with ops and engineering teams running sprints who want agents keeping work in sync. | [Docs](https://linear.app/docs/mcp) |
 
 ## Analytics
 
@@ -77,14 +70,13 @@ Servers built by Daeda are marked with a 🔶
 
 | Server | Description | Links |
 |--------|-------------|-------|
-| **Context7** | Pulls up-to-date, version-specific documentation and code examples straight from the source into your prompt. Add `use context7` to any coding question. 44k+ GitHub stars. | [GitHub](https://github.com/upstash/context7) · [Site](https://context7.com) |
-| **Slite** | Search and retrieve notes from your Slite workspace. Browse note hierarchies and get content in markdown or HTML. | [Slite](https://slite.slite.page/p/IdNdmbQqNeogFs/Use-Slite-MCP) |
+| **Notion** | Official Notion MCP server. Read and write Notion pages, databases, and wikis. Ideal for RevOps teams storing playbooks, deal rooms, or campaign briefs in Notion — agents can reference and update docs directly. | [Docs](https://developers.notion.com/docs/mcp) |
 
-## Search
+## Revenue & Payments
 
 | Server | Description | Links |
 |--------|-------------|-------|
-| **DuckDuckGo Search** | Privacy-friendly web search via DuckDuckGo with content fetching and parsing. | [GitHub](https://github.com/nickclyde/duckduckgo-mcp-server) |
+| **Stripe** | Official Stripe MCP server. Query customers, subscriptions, invoices, and payment events directly from AI chat. Core for RevOps teams measuring MRR, churn, and billing health. | [Docs](https://docs.stripe.com/mcp) |
 
 
 > *Know a great MCP we're missing? [Open a PR!](#contributing)*
@@ -130,6 +122,8 @@ If you find an MCP server that you think deserves to be on this list, we'd love 
 
 ## About
 
-This list is maintained by [Daeda Technologies](https://daeda.tech?utm_source=github), we build apps for the HubSpot ecosystem. We work with MCP servers daily and created this list because these MCPs 10x us and think it'll be cool to share them.
+This list is maintained by [Daeda Technologies](https://daeda.tech?utm_source=github), builders of AI-powered HubSpot apps on the [HubSpot Marketplace](https://daeda.tech/app-categories/hubspot?utm_source=github). We work with MCP servers daily and keep this list because these are the ones that 10x our RevOps workflows — sharing what's useful so HubSpot admins and CRM teams don't have to find them the hard way.
 
-If you find this useful, a ⭐ helps others discover it too.
+For the deeper walkthrough of why each of these made the cut, read our blog post: [Awesome MCP Servers for RevOps](https://daeda.tech/blogs/awesome-mcp-servers-for-revops?utm_source=github).
+
+If you find this useful, a ⭐ helps other RevOps folks discover it too.
