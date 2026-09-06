@@ -41,6 +41,8 @@ Servers built by Daeda are marked with a 🔶
 | 🔶 **Daeda HubSpot MCP** | Query and interact with your HubSpot CRM — contacts, companies, deals, associations, and more. Free npm package gives any AI assistant a local, encrypted, read-only sync of your portal. The full [Daeda AI](https://daeda.tech/projects/daeda-ai/?utm_source=github) app on the HubSpot Marketplace adds Write Plans, multi-portal support, and creates HubSpot Workflow Actions. | [npm (free)](https://www.npmjs.com/package/daeda-mcp) · [Daeda AI (Marketplace)](https://daeda.tech/projects/daeda-ai/?utm_source=github) |
 
 
+| **Crawdar Business Research** | Discover companies from a business brief, review criterion-level evidence and unknowns, then export CSV or JSON before a CRM import. Hosted Streamable HTTP MCP with a free, rate-limited tier and fictional sandbox. Does not write to your CRM or send outreach. | [Setup](https://crawdar.com/agents) · [API contract](https://crawdar.com/openapi.json) |
+
 ## Automation
 
 | Server | Description | Links |
