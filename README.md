@@ -64,6 +64,7 @@ Servers built by Daeda are marked with a 🔶
 
 | Server | Description | Links |
 |--------|-------------|-------|
+| **Statsnet** | Background check any company in the world: registration, executives, courts and finances. Remote MCP + Official Registry. | [GitHub](https://github.com/usenetstate/statsnet-mcp) · [Remote](https://statsnet.co/mcp) · Registry `io.github.usenetstate/statsnet` |
 | **PostHog** | Official PostHog MCP server. Query analytics, manage feature flags, track errors, and run SQL insights through natural language. | [GitHub](https://github.com/PostHog/mcp) · [Docs](https://posthog.com/docs/model-context-protocol) |
 
 ## Knowledge & Documentation
